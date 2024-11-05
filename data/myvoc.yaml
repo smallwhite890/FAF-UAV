@@ -1,0 +1,10 @@
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: /home/raytrack/桌面/SE+MPDIoUyolov7-main/VOCdata/dataSet_path/train.txt # 118287 images
+val: /home/raytrack/桌面/SE+MPDIoUyolov7-main/VOCdata/dataSet_path/val.txt # 5000 images
+test: /home/raytrack/桌面/SE+MPDIoUyolov7-main/VOCdata/dataSet_path/test.txt  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+# number of classes
+nc: 1
+
+# class names
+names: ['UAV']
